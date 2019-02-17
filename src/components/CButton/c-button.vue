@@ -9,8 +9,10 @@
 
     export default Vue.extend({
         name: 'CButton',
-        data: {
-            text: 'CButton'
+        data() {
+            return {
+                text: 'CButton'
+            };
         }
     });
 </script>

@@ -9,8 +9,10 @@
 
     export default Vue.extend({
         name: 'CBar',
-        data: {
-            text: 'CBar'
+        data() {
+            return {
+                text: 'CBar'
+            };
         }
     });
 </script>
